@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.Inicio">
+   <children>
+      <MenuBar layoutX="136.0" layoutY="72.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Economía">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Sociedad">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Educación">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Medio Ambiente">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="174.0" layoutY="14.0" text="Noticias Montero">
+         <font>
+            <Font name="Gabriola" size="48.0" />
+         </font></Label>
+      <ScrollPane layoutX="108.0" layoutY="125.0">
+         <content>
+            <GridPane prefHeight="224.0" prefWidth="402.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.0" minWidth="10.0" prefWidth="87.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.0" minWidth="10.0" prefWidth="241.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="411.0" minWidth="10.0" prefWidth="85.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="154.0" minHeight="0.0" prefHeight="94.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="83.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="57.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" layoutX="23.0" layoutY="14.0" prefHeight="17.0" prefWidth="163.0" text="Pillan a Lola Lolita fumando en un bar" />
+                     </children>
+                  </Pane>
+               </children>
+            </GridPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
