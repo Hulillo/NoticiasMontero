@@ -13,48 +13,40 @@
 <AnchorPane prefHeight="557.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.CrearNoticias">
    <children>
 
-      <!-- Barra decorativa arriba -->
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
-      <!-- Fondo -->
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f0f0" height="167.0" layoutX="50.0" layoutY="85.0" stroke="BLACK" strokeLineJoin="ROUND" strokeWidth="0.5" width="550.0">
          <cursor>
             <Cursor fx:constant="CROSSHAIR" />
          </cursor></Rectangle>
 
-      <!-- Logo -->
       <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../imagenes/logo.png" />
          </image>
       </ImageView>
 
-      <!-- Título -->
       <Label layoutX="88.0" layoutY="19.0" text="Noticias Montero" wrapText="true">
          <font>
             <Font name="Gabriola" size="24.0" />
          </font>
       </Label>
 
-      <!-- Campo de título -->
       <TextField layoutX="64.0" layoutY="278.0" prefHeight="30.0" prefWidth="520.0">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor></TextField>
 
-      <!-- Campo de descripción -->
       <TextField alignment="TOP_LEFT" layoutX="66.0" layoutY="339.0" prefHeight="157.0" prefWidth="520.0">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor></TextField>
 
-      <!-- Icono de flecha atrás -->
       <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="600.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../imagenes/atras.png" />
          </image>
       </ImageView>
 
-      <!-- Botón de añadir noticia -->
       <Button layoutX="266.0" layoutY="513.0" mnemonicParsing="false" text="Añadir Noticia">
          <font>
             <Font name="System Bold" size="14.0" />
