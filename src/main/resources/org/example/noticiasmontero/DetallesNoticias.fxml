@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.noticiasmontero.DetallesNoticias"
-            prefHeight="400.0" prefWidth="600.0">
+<AnchorPane prefHeight="557.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.DetallesNoticias">
+    <children>
 
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
+
+        <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../imagenes/logo.png" />
+            </image>
+        </ImageView>
+
+        <Label layoutX="88.0" layoutY="19.0" text="Noticias Montero" wrapText="true">
+            <font>
+                <Font name="Gabriola" size="24.0" />
+            </font>
+        </Label>
+
+        <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="591.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../imagenes/atras.png" />
+            </image>
+        </ImageView>
+        <SplitPane layoutX="-21.0" layoutY="329.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="672.0" />
+        <Text layoutX="453.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalles de la Noticia">
+            <font>
+                <Font name="Gabriola" size="20.0" />
+            </font>
+        </Text>
+      <ImageView fitHeight="186.0" fitWidth="367.0" layoutX="160.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imagenes/noticia.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="35.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Los agricultores protestan y cortan con sus tractores decenas de carreteras en toda España" textAlignment="CENTER" wrappingWidth="581.4664306640623">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Las protestas de los agricultores se han extendido por toda España, complicando el tráfico en vías principales e incluso bloqueando infraestructuras como el puerto de Málaga con unos 200 tractores. Los manifestantes reivindican precios justos para sus productos, se quejan de la competencia desleal, piden que se suavicen las exigencias de la PAC (Política Agrícola Común), se cumpla la ley de la cadena alimentaria y se mantenga la rebaja de impuestos del gasóleo agrícola. En Madrid, un grupo de 100 tractores han cortado el tráfico en la A-42, que une la capital con Toledo y en la autovía A-4 que une Madrid con Córdoba, concretamente a la altura del kilómetro 119 en la localidad de Madridejos y en las dos direcciones. Un cordón policial ha impedido que 80 tractores llegados de Ávila hayan bloqueado Mercamadrid, según la Delegación del Gobierno." wrappingWidth="565.3368530273438">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+    </children>
 </AnchorPane>
