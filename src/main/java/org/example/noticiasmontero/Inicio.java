@@ -34,4 +34,19 @@ public class Inicio extends Application {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    private void openDetallesNoticiasWindow() {
+        try {
+            // Cargar el contenido de la ventana de login
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("DetallesNoticias.fxml"));
+            AnchorPane loginPane = loader.load();
+
+            // Reemplazar el contenido de la ventana actual con el de login
+            rootPane.getChildren().setAll(loginPane);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
