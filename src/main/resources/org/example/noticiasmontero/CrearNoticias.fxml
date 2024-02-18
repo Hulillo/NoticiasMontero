@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="557.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.CrearNoticias">
+<AnchorPane fx:id="rootPane" prefHeight="557.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.CrearNoticias">
    <children>
 
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
@@ -41,13 +41,13 @@
             <Cursor fx:constant="TEXT" />
          </cursor></TextField>
 
-      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="600.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="600.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#openLoginWindow">
          <image>
             <Image url="@../../../img/atras.png" />
          </image>
       </ImageView>
 
-      <Button layoutX="266.0" layoutY="513.0" mnemonicParsing="false" text="Añadir Noticia">
+      <Button layoutX="266.0" layoutY="513.0" mnemonicParsing="false" text="Añadir Noticia" onAction="#openLoginWindow">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="557.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.GestionUsuarios">
+<AnchorPane fx:id="rootPane" prefHeight="557.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.GestionUsuarios">
     <children>
 
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
@@ -28,7 +28,7 @@
             </font>
         </Label>
 
-        <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="591.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="591.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#openInicioWindow">
             <image>
                 <Image url="@../../../img/atras.png" />
             </image>

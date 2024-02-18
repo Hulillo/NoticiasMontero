@@ -36,32 +36,4 @@ public class GestionUsuarios extends Application {
             e.printStackTrace();
         }
     }
-
-    @FXML
-    private void openSignUpWindow() {
-        try {
-            // Cargar el contenido de la ventana de registro
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("signup.fxml"));
-            AnchorPane registroPane = loader.load();
-
-            // Reemplazar el contenido de la ventana actual con el de registro
-            rootPane.getChildren().setAll(registroPane);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @FXML
-    public void openForgotPassWindow() {
-        try {
-            // Cargar el contenido de la ventana de registro
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("forgotPass.fxml"));
-            AnchorPane registroPane = loader.load();
-
-            // Reemplazar el contenido de la ventana actual con el de registro
-            rootPane.getChildren().setAll(registroPane);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }

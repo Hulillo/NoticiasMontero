@@ -4,25 +4,25 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.Singup">
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.Singup">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Noticias Montero" wrapText="true">
          <font>
             <Font name="Gabriola" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="257.0" layoutY="60.0" prefHeight="30.0" prefWidth="86.0" text="Sign Up" wrapText="true">
+      <Label layoutX="282.0" layoutY="57.0" prefHeight="30.0" prefWidth="86.0" text="Sign Up" wrapText="true">
          <font>
             <Font name="Constantia" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="173.0" layoutY="107.0" text="Correo" />
-      <TextField layoutX="173.0" layoutY="124.0" prefHeight="25.0" prefWidth="254.0" />
-      <Label layoutX="174.0" layoutY="166.0" text="Contraseña" />
-      <TextField layoutX="174.0" layoutY="183.0" prefHeight="25.0" prefWidth="254.0" />
-      <Button layoutX="278.0" layoutY="284.0" style="-fx-background-color: #00ADB5;" mnemonicParsing="false" text="Crear" textFill="#eeeeee" onAction="#openInicioWindow" />
-      <Label layoutX="265.0" layoutY="330.0" text="Iniciar Sesión" onMouseClicked="#openLoginWindow"/>
-      <Label layoutX="174.0" layoutY="220.0" text="Confirmar Contraseña" />
-      <TextField layoutX="174.0" layoutY="237.0" prefHeight="25.0" prefWidth="254.0" />
+      <Label layoutX="198.0" layoutY="104.0" text="Correo" />
+      <TextField layoutX="198.0" layoutY="121.0" prefHeight="25.0" prefWidth="254.0" />
+      <Label layoutX="199.0" layoutY="163.0" text="Contraseña" />
+      <TextField layoutX="199.0" layoutY="180.0" prefHeight="25.0" prefWidth="254.0" />
+      <Button layoutX="303.0" layoutY="281.0" mnemonicParsing="false" onAction="#openInicioWindow" style="-fx-background-color: #00ADB5;" text="Crear" textFill="#eeeeee" />
+      <Label layoutX="290.0" layoutY="327.0" onMouseClicked="#openLoginWindow" text="Iniciar Sesión" />
+      <Label layoutX="199.0" layoutY="217.0" text="Confirmar Contraseña" />
+      <TextField layoutX="199.0" layoutY="234.0" prefHeight="25.0" prefWidth="254.0" />
    </children>
 </AnchorPane>
