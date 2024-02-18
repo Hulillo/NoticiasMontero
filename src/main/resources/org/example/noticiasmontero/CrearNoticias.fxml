@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="557.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.CrearNoticias">
+   <children>
+
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f0f0" height="167.0" layoutX="50.0" layoutY="85.0" stroke="BLACK" strokeLineJoin="ROUND" strokeWidth="0.5" width="550.0">
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor></Rectangle>
+
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imagenes/logo.png" />
+         </image>
+      </ImageView>
+
+      <Label layoutX="88.0" layoutY="19.0" text="Noticias Montero" wrapText="true">
+         <font>
+            <Font name="Gabriola" size="24.0" />
+         </font>
+      </Label>
+
+      <TextField layoutX="64.0" layoutY="278.0" prefHeight="30.0" prefWidth="520.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+
+      <TextField alignment="TOP_LEFT" layoutX="66.0" layoutY="339.0" prefHeight="157.0" prefWidth="520.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="600.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imagenes/atras.png" />
+         </image>
+      </ImageView>
+
+      <Button layoutX="266.0" layoutY="513.0" mnemonicParsing="false" text="Añadir Noticia">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <style>
+            -fx-background-color: #4d94ff;
+            -fx-text-fill: white;
+            -fx-background-radius: 5;
+            -fx-border-radius: 5;
+            -fx-cursor: hand;
+         </style>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="74.0" fitWidth="80.0" layoutX="289.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imagenes/agregarimagen.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="252.0" text="Titulo Noticia" wrapText="true">
+         <font>
+            <Font name="Gabriola" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="313.0" text="Descripcion de la Noticia" wrapText="true">
+         <font>
+            <Font name="Gabriola" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
