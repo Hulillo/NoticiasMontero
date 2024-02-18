@@ -22,7 +22,7 @@
                            <image>
                               <Image url="@../../../img/Provincias_de_España.svg.png" />
                            </image></ImageView>
-                        <Button layoutX="256.0" layoutY="251.0" mnemonicParsing="false" text="Ver Noticia" style="-fx-background-color: #00ADB5" textFill="#eeeeee" onAction="#openDetallesNoticiasWindow" />
+                        <Button layoutX="263.0" layoutY="251.0" mnemonicParsing="false" onAction="#openDetallesNoticiasWindow" style="-fx-background-color: #00ADB5" text="Ver Noticia" textFill="#eeeeee" />
                      </children></AnchorPane>
                     </content>
                 </Tab>
@@ -39,8 +39,7 @@
                                     <image>
                                         <Image url="@../../../img/Provincias_de_España.svg.png" />
                                     </image></ImageView>
-                                <Button layoutX="256.0" layoutY="251.0" mnemonicParsing="false" text="Editar Noticia" style="-fx-background-color: #00ADB5" />
-                            </children></AnchorPane>
+                                <Button layoutX="263.0" layoutY="251.0" mnemonicParsing="false" onAction="#openDetallesNoticiasWindow" style="-fx-background-color: #00ADB5" text="Ver Noticia" textFill="#eeeeee" />                            </children></AnchorPane>
                     </content>
                 </Tab>
                 <Tab text="Educación">
@@ -56,8 +55,7 @@
                                     <image>
                                         <Image url="@../../../img/Provincias_de_España.svg.png" />
                                     </image></ImageView>
-                                <Button layoutX="256.0" layoutY="251.0" mnemonicParsing="false" text="Editar Noticia" style="-fx-background-color: #00ADB5" />
-                            </children></AnchorPane>
+                                <Button layoutX="263.0" layoutY="251.0" mnemonicParsing="false" onAction="#openDetallesNoticiasWindow" style="-fx-background-color: #00ADB5" text="Ver Noticia" textFill="#eeeeee" />                            </children></AnchorPane>
                     </content>
                 </Tab>
                 <Tab text="Medio Ambiente">
@@ -73,8 +71,7 @@
                                     <image>
                                         <Image url="@../../../img/Provincias_de_España.svg.png" />
                                     </image></ImageView>
-                                <Button layoutX="256.0" layoutY="251.0" mnemonicParsing="false" text="Editar Noticia" style="-fx-background-color: #00ADB5"/>
-                            </children></AnchorPane>
+                                <Button layoutX="263.0" layoutY="251.0" mnemonicParsing="false" onAction="#openDetallesNoticiasWindow" style="-fx-background-color: #00ADB5" text="Ver Noticia" textFill="#eeeeee" />                            </children></AnchorPane>
                     </content>
                 </Tab>
                 <Tab text="Políticas">
@@ -90,8 +87,7 @@
                                     <image>
                                         <Image url="@../../../img/Provincias_de_España.svg.png" />
                                     </image></ImageView>
-                                <Button layoutX="256.0" layoutY="251.0" mnemonicParsing="false" text="Editar Noticia" style="-fx-background-color: #00ADB5"/>
-                            </children></AnchorPane>
+                                <Button layoutX="263.0" layoutY="251.0" mnemonicParsing="false" onAction="#openDetallesNoticiasWindow" style="-fx-background-color: #00ADB5" text="Ver Noticia" textFill="#eeeeee" />                            </children></AnchorPane>
                     </content>
                 </Tab>
                 <Tab text="Agricultura">
@@ -107,8 +103,7 @@
                                     <image>
                                         <Image url="@../../../img/Provincias_de_España.svg.png" />
                                     </image></ImageView>
-                                <Button layoutX="256.0" layoutY="251.0" mnemonicParsing="false" text="Editar Noticia" style="-fx-background-color: #00ADB5"/>
-                            </children></AnchorPane>
+                                <Button layoutX="263.0" layoutY="251.0" mnemonicParsing="false" onAction="#openDetallesNoticiasWindow" style="-fx-background-color: #00ADB5" text="Ver Noticia" textFill="#eeeeee" />                            </children></AnchorPane>
                     </content>
                 </Tab>
             </tabs>
