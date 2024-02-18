@@ -11,108 +11,95 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="rootPane" prefHeight="557.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.GestionUsuarios">
+<AnchorPane fx:id="rootPane" prefHeight="447.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.GestionUsuarios">
     <children>
 
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="112.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="600.0" />
 
-        <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../img/logo.png" />
             </image>
         </ImageView>
 
-        <Label layoutX="88.0" layoutY="19.0" text="Noticias Montero" wrapText="true">
+        <Label layoutX="69.0" layoutY="18.0" text="Noticias Montero" wrapText="true">
             <font>
-                <Font name="Gabriola" size="24.0" />
+                <Font name="Gabriola" size="18.0" />
             </font>
         </Label>
 
-        <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="591.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#openInicioWindow">
+        <ImageView fitHeight="26.0" fitWidth="35.0" layoutX="551.0" layoutY="18.0" onMouseClicked="#openInicioWindow" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../img/atras.png" />
             </image>
         </ImageView>
-      <Text layoutX="53.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filtrar">
+      <Text layoutX="12.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filtrar">
          <font>
-            <Font name="Gabriola" size="20.0" />
+            <Font name="Gabriola" size="18.0" />
          </font>
       </Text>
-      <SplitPane layoutX="-21.0" layoutY="190.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="672.0" />
-        <Button layoutX="54.0" layoutY="116.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 16px; -fx-opacity: 3;" text="Usuarios" />
-        <Button layoutX="252.0" layoutY="116.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 16px; -fx-opacity: 1.0;" text="Editores" />
-        <Button layoutX="453.0" layoutY="115.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 16px; -fx-opacity: 1.0;" text="Administradores" />
-        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="30.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="591.0" />
-      <ChoiceBox cache="true" layoutX="488.0" layoutY="217.0" prefHeight="26.0" prefWidth="126.0" />
-      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="460.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+      <SplitPane layoutX="-72.0" layoutY="110.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="672.0" />
+        <Button layoutX="55.0" layoutY="69.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 12px; -fx-opacity: 1;" text="Usuarios" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="22.0" layoutY="167.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="559.0" />
+      <ChoiceBox cache="true" layoutX="480.0" layoutY="173.0" prefHeight="26.0" prefWidth="95.0" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="442.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../img/basura.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="30.0" layoutY="265.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="591.0" />
-      <ChoiceBox cache="true" layoutX="488.0" layoutY="271.0" prefHeight="26.0" prefWidth="126.0" />
-      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="460.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/basura.png" />
-         </image>
-      </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="30.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="591.0" />
-      <ChoiceBox cache="true" layoutX="488.0" layoutY="325.0" prefHeight="26.0" prefWidth="126.0" />
-      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="460.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/basura.png" />
-         </image>
-      </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="30.0" layoutY="374.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="591.0" />
-      <ChoiceBox cache="true" layoutX="488.0" layoutY="380.0" prefHeight="26.0" prefWidth="126.0" />
-      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="460.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/basura.png" />
-         </image>
-      </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="30.0" layoutY="429.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="591.0" />
-      <ChoiceBox cache="true" layoutX="488.0" layoutY="435.0" prefHeight="26.0" prefWidth="126.0" />
-      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="460.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/basura.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="39.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="31.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../img/perfil.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="39.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/perfil.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="39.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/perfil.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="39.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/perfil.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="39.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/perfil.png" />
-         </image>
-      </ImageView>
-      <Text layoutX="453.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion de Usuarios">
+      <Text layoutX="425.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion de Usuarios">
          <font>
-            <Font name="Gabriola" size="20.0" />
+            <Font name="Gabriola" size="18.0" />
          </font>
       </Text>
-      <Text layoutX="81.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
-      <Text layoutX="81.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
-      <Text layoutX="81.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
-      <Text layoutX="81.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
-      <Text layoutX="81.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
-      <SplitPane layoutX="-21.0" layoutY="485.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="672.0" />
-      <Button layoutX="252.0" layoutY="504.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 16px; -fx-opacity: 3;" text="Guardar Cambios" />
+      <Text layoutX="73.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
+      <SplitPane layoutX="-72.0" layoutY="318.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="672.0" />
+      <Button layoutX="228.0" layoutY="69.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 12px; -fx-opacity: 1;" text="Editores" />
+      <Button layoutX="407.0" layoutY="69.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 12px; -fx-opacity: 1;" text="Administradores" />
+      <Button layoutX="229.0" layoutY="342.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" style="-fx-background-color: #add8e6; -fx-text-fill: white; -fx-font-size: 12px; -fx-opacity: 1;" text="Guardar Cambiios" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="22.0" layoutY="217.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="559.0" />
+      <ChoiceBox cache="true" layoutX="480.0" layoutY="223.0" prefHeight="26.0" prefWidth="95.0" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="442.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/basura.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="31.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/perfil.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="73.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="22.0" layoutY="265.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="559.0" />
+      <ChoiceBox cache="true" layoutX="480.0" layoutY="271.0" prefHeight="26.0" prefWidth="95.0" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="442.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/basura.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="31.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/perfil.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="73.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdbdbd1e" height="39.0" layoutX="22.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.1" width="559.0" />
+      <ChoiceBox cache="true" layoutX="480.0" layoutY="126.0" prefHeight="26.0" prefWidth="95.0" />
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="442.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/basura.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="39.0" layoutX="31.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/perfil.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="73.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="56.341796875" />
     </children>
 </AnchorPane>

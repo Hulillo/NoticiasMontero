@@ -9,28 +9,47 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="430.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.CrearNoticias">
+<AnchorPane fx:id="rootPane" prefHeight="557.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.CrearNoticias">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f0f0" height="106.0" layoutX="29.0" layoutY="55.0" stroke="BLACK" strokeLineJoin="ROUND" strokeWidth="0.5" width="547.0">
+
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="120.0" layoutX="1.0" layoutY="-74.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f0f0" height="105.0" layoutX="36.0" layoutY="59.0" stroke="BLACK" strokeLineJoin="ROUND" strokeWidth="0.5" width="528.0">
          <cursor>
             <Cursor fx:constant="CROSSHAIR" />
          </cursor></Rectangle>
 
-      <TextField layoutX="45.0" layoutY="194.0" prefHeight="0.0" prefWidth="520.0">
-         <cursor>
-            <Cursor fx:constant="TEXT" />
-         </cursor></TextField>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/logo.png" />
+         </image>
+      </ImageView>
 
-      <TextField alignment="TOP_LEFT" layoutX="45.0" layoutY="252.0" prefHeight="96.0" prefWidth="520.0">
-         <cursor>
-            <Cursor fx:constant="TEXT" />
-         </cursor></TextField>
-
-      <Button layoutX="257.0" layoutY="356.0" mnemonicParsing="false" text="Añadir Noticia">
+      <Label layoutX="76.0" layoutY="16.0" text="Noticias Montero" wrapText="true">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Gabriola" size="20.0" />
+         </font>
+      </Label>
+
+      <TextField layoutX="59.0" layoutY="189.0" prefHeight="17.0" prefWidth="469.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+
+      <TextField alignment="TOP_LEFT" layoutX="59.0" layoutY="237.0" prefHeight="106.0" prefWidth="469.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="522.0" layoutY="16.0" onMouseClicked="#openLoginWindow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/atras.png" />
+         </image>
+      </ImageView>
+
+      <Button layoutX="245.0" layoutY="354.0" mnemonicParsing="false" onAction="#openLoginWindow" text="Añadir Noticia">
+         <font>
+            <Font name="System Bold" size="14.0" />
          </font>
          <style>
             -fx-background-color: #4d94ff;
@@ -43,43 +62,25 @@
             <Cursor fx:constant="OPEN_HAND" />
          </cursor>
       </Button>
-      <ImageView fitHeight="41.0" fitWidth="60.0" layoutX="281.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="53.0" fitWidth="56.0" layoutX="275.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../img/agregarimagen.png" />
          </image>
       </ImageView>
-      <Label layoutX="46.0" layoutY="171.0" text="Titulo Noticia" wrapText="true">
+      <Label layoutX="60.0" layoutY="164.0" text="Titulo Noticia" wrapText="true">
          <font>
             <Font name="Gabriola" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="45.0" layoutY="229.0" text="Descripcion de la Noticia" wrapText="true">
+      <Label layoutX="59.0" layoutY="214.0" text="Descripcion de la Noticia" wrapText="true">
          <font>
             <Font name="Gabriola" size="18.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="106.0" layoutY="-65.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="606.0" />
-      <ImageView fitHeight="30.0" fitWidth="34.0" layoutX="34.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/logo.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="74.0" layoutY="5.0" prefHeight="30.0" prefWidth="128.0" text="Noticias Montero" wrapText="true">
+      <Label layoutX="423.0" layoutY="16.0" text="Añadir Noticia" wrapText="true">
          <font>
-            <Font name="Gabriola" size="18.0" />
+            <Font name="Gabriola" size="20.0" />
          </font>
       </Label>
-      <ImageView fitHeight="24.0" fitWidth="30.0" layoutX="540.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../img/atras.png" />
-         </image>
-      </ImageView>
-      <Text layoutX="415.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creacion de Noticia">
-         <font>
-            <Font name="Gabriola" size="18.0" />
-         </font>
-      </Text>
    </children>
 </AnchorPane>
-
-
