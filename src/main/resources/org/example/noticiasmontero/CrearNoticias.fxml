@@ -21,7 +21,7 @@
 
       <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imagenes/logo.png" />
+            <Image url="@../../../img/logo.png" />
          </image>
       </ImageView>
 
@@ -43,7 +43,7 @@
 
       <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="600.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imagenes/atras.png" />
+            <Image url="@../../../img/atras.png" />
          </image>
       </ImageView>
 
@@ -64,7 +64,7 @@
       </Button>
       <ImageView fitHeight="74.0" fitWidth="80.0" layoutX="289.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imagenes/agregarimagen.png" />
+            <Image url="@../../../img/agregarimagen.png"/>
          </image>
       </ImageView>
       <Label layoutX="65.0" layoutY="252.0" text="Titulo Noticia" wrapText="true">

@@ -9,14 +9,15 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="rootPane" prefHeight="557.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.DetallesNoticias">
+
+<AnchorPane prefHeight="610.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noticiasmontero.DetallesNoticias">
     <children>
 
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8a8a14" height="127.0" layoutY="-63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="651.0" />
 
         <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../imagenes/logo.png" />
+                <Image url="@../../../img/logo.png" />
             </image>
         </ImageView>
 
@@ -28,7 +29,7 @@
 
         <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="591.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../imagenes/atras.png" />
+                <Image url="@../../../img/atras.png" />
             </image>
         </ImageView>
         <SplitPane layoutX="-21.0" layoutY="329.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="672.0" />
@@ -39,7 +40,7 @@
         </Text>
       <ImageView fitHeight="186.0" fitWidth="367.0" layoutX="160.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imagenes/noticia.jpg" />
+            <Image url="@../../../img/noticia.jpg" />
          </image>
       </ImageView>
       <Text layoutX="35.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Los agricultores protestan y cortan con sus tractores decenas de carreteras en toda España" textAlignment="CENTER" wrappingWidth="581.4664306640623">
@@ -52,5 +53,20 @@
             <Font size="14.0" />
          </font>
       </Text>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="280.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/like.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="348.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/dislike.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="606.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/eliminar.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
