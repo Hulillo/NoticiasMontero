@@ -13,7 +13,7 @@ public class DetallesNoticias extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("DetallesNoticias.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 650, 600);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         stage.setTitle("Noticias Montero!");
         stage.setScene(scene);
         stage.show();
